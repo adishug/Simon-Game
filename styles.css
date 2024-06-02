@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.title-fonts{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#highest-score{
+  font-size: 1rem; 
+  margin: 10px;
+  padding-top: 40px;
+}
+
+#welcome-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  color: #FEF2BF;
+}
+
+
+.difficulty-btn{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #011F3F;
+  color: #FEF2BF;
+  border: 2px solid #FEF2BF;
+  cursor: pointer;
+}
+
+.difficulty-btn:hover {
+  background-color: #FEF2BF;
+  color: #011F3F;
+}
+
+#back-home-container{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;;
+}
+
+.highest-score{
+
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

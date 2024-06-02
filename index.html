@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="welcome-screen">
+      <h1 class="title-fonts">Select Difficulty Level</h1>
+      <div id="buttons-container">
+        <button id="easy" class="difficulty-btn">Easy</button>
+        <button id="mid" class="difficulty-btn">Mid</button>
+        <button id="hard" class="difficulty-btn">Hard</button>
+      </div>
+    </div>
+
+    <div id="game-screen" class="hidden">
+      <h1 id="level-title" class="title-fonts">Press Any Key to Start</h1>
+      <div class="container">
+        <div lass="row">
+          <div type="button" id="green" class="btn green"></div>
+          <div type="button" id="red" class="btn red"></div>
+        </div>
+        <div class="row">
+          <div type="button" id="yellow" class="btn yellow"></div>
+          <div type="button" id="blue" class="btn blue"></div>
+        </div>
+        <div>
+          <h1 id="highest-score" class="title-fonts">highest score:</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="back-home-container" class="hidden">
+      <button id="back-home-button" class="difficulty-btn">Back to Home</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
